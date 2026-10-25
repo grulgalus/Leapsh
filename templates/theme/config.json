@@ -1,0 +1,12 @@
+{
+  "name": "__NAME__",
+  "version": "0.1.0",
+  "type": "theme",
+  "description": "Moje nové téma",
+  "theme": {
+    "name": "__THEME__",
+    "colors": {"ok": "green", "err": "red", "accent": "bold cyan"},
+    "prompt": "{accent}{cwd}{reset}{git} {status_color}❯{reset} ",
+    "rprompt": "{dim}{time}{reset}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tabcomplete",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Chytré doplňování Tabem: příkazy shellu, git (větve), pkg/apt, ssh, $PROMĚNNÉ, vlastní specifikace; Tab Tab prochází nabídku",
+  "settings": {"ignore_case": false, "specs": {}},
+  "settings_info": {
+    "ignore_case": "doplňovat bez ohledu na velikost písmen",
+    "specs": "vlastní doplňování: {\"příkaz\": [\"volba\", ...]} nebo {\"příkaz\": {\"1\": [...], \"--flag\": [...]}}"
+  }
+}

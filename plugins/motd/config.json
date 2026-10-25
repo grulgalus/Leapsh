@@ -1,0 +1,6 @@
+{
+  "name": "motd",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Při startu ukáže náhodný tip"
+}

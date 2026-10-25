@@ -1,0 +1,13 @@
+{
+  "name": "pet",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Mazlíček v promptu {pet}: raduje se z úspěšných příkazů, trpí při chybách (příkaz pet)",
+  "completions": {
+    "pet": [
+      "feed",
+      "stroke",
+      "name"
+    ]
+  }
+}

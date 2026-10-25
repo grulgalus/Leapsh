@@ -1,0 +1,17 @@
+{
+  "name": "arcade",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Hry a efekty: snake, train (sl), matrix + spořič po nečinnosti",
+  "settings": {
+    "screensaver": true,
+    "idle_seconds": 60
+  },
+  "completions": {
+    "matrix": [
+      "5",
+      "10",
+      "30"
+    ]
+  }
+}

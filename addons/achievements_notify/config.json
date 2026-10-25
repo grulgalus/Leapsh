@@ -1,0 +1,7 @@
+{
+  "name": "achievements_notify",
+  "version": "1.0.0",
+  "type": "addon",
+  "extends": "achievements",
+  "description": "Při odemčení trofeje zavibruje a pošle notifikaci (Termux), jinak pípne"
+}

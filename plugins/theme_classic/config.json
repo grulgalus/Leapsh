@@ -1,0 +1,16 @@
+{
+  "name": "theme_classic",
+  "version": "1.0.0",
+  "type": "theme",
+  "description": "Klasický styl user@host:cesta (git) $",
+  "theme": {
+    "name": "classic",
+    "colors": {
+      "ok": "green",
+      "err": "red",
+      "accent": "bold green",
+      "accent2": "bold blue"
+    },
+    "prompt": "{accent}{user}@{host}{reset}:{accent2}{cwd}{reset}{git}{pet} {status_color}{symbol}{reset} "
+  }
+}

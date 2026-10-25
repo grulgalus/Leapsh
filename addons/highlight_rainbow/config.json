@@ -1,0 +1,7 @@
+{
+  "name": "highlight_rainbow",
+  "version": "1.0.0",
+  "type": "addon",
+  "extends": "syntax_highlight",
+  "description": "Duhové zvýrazňování: každé slovo jinou barvou (neexistující příkaz zůstává červený)"
+}

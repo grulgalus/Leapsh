@@ -1,0 +1,14 @@
+{
+  "name": "theme_minimal",
+  "version": "1.0.0",
+  "type": "theme",
+  "description": "Minimalistický: jen název složky a šipka",
+  "theme": {
+    "name": "minimal",
+    "colors": {
+      "ok": "green",
+      "err": "red"
+    },
+    "prompt": "{dim}{cwd_base}{reset} {status_color}›{reset} "
+  }
+}

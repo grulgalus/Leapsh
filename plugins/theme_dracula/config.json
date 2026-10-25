@@ -1,0 +1,18 @@
+{
+  "name": "theme_dracula",
+  "version": "1.0.0",
+  "type": "theme",
+  "description": "Dracula paleta (truecolor), dva řádky",
+  "theme": {
+    "name": "dracula",
+    "colors": {
+      "purple": "bold #bd93f9",
+      "comment": "#6272a4",
+      "cyan": "#8be9fd",
+      "green": "bold #50fa7b",
+      "ok": "#50fa7b",
+      "err": "#ff5555"
+    },
+    "prompt": "{purple}{user}{reset}{comment}@{reset}{cyan}{host}{reset} {green}{cwd}{reset}{git}{pet}\n{status_color}λ{reset} "
+  }
+}

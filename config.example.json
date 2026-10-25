@@ -1,0 +1,11 @@
+{
+  "theme": "rounded",
+  "history_size": 5000,
+  "history_dedupe": true,
+  "disabled": ["highlight_rainbow"],
+  "aliases": {"ll": "ls -la --color=auto", "la": "ls -A --color=auto", "ls": "ls --color=auto", "gs": "git status -sb"},
+  "termux": {"auto": true},
+  "warn_not_termux": true,
+  "startup_msg": true,
+  "tab_cycle": true
+}

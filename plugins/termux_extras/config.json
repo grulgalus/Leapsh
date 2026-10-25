@@ -1,0 +1,9 @@
+{
+  "name": "termux_extras",
+  "version": "1.0.0",
+  "type": "plugin",
+  "platforms": [
+    "termux"
+  ],
+  "description": "Termux: segment {battery}, příkazy battery a tnotify (vyžaduje balíček termux-api)"
+}

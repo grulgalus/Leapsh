@@ -1,0 +1,59 @@
+{
+  "name": "themes_extra",
+  "version": "1.0.0",
+  "type": "theme",
+  "description": "Balíček témat: rounded (výchozí), hacker, mono, cyberpunk, grid – s telemetrií {perf}",
+  "themes": [
+    {
+      "name": "rounded",
+      "colors": {
+        "bg": "bold green",
+        "bc": "bold cyan",
+        "ok": "bold green",
+        "err": "bold red"
+      },
+      "prompt": "\n╭─{bg}{user}@{host} {bc}{cwd}{reset}{git_box}{pet} {perf}\n╰─> "
+    },
+    {
+      "name": "hacker",
+      "colors": {
+        "g": "bold green",
+        "ok": "bold green",
+        "err": "bold red"
+      },
+      "prompt": "\n{g}[{user}@{cwd}]{git_box} {perf}\n{g}${reset} "
+    },
+    {
+      "name": "mono",
+      "colors": {
+        "m": "bold magenta",
+        "k": "bold black",
+        "ok": "green",
+        "err": "red"
+      },
+      "prompt": "\n{m}{cwd_name}{reset}{git_box} {perf}\n{k}>{reset} "
+    },
+    {
+      "name": "cyberpunk",
+      "colors": {
+        "y": "226",
+        "p": "198",
+        "c": "51",
+        "ok": "green",
+        "err": "red"
+      },
+      "prompt": "\n{y}{user}{p} ⚡ {c}{cwd}{git_box} {perf}\n{p}>{reset} "
+    },
+    {
+      "name": "grid",
+      "colors": {
+        "bc": "bold cyan",
+        "bm": "bold magenta",
+        "by": "bold yellow",
+        "ok": "green",
+        "err": "red"
+      },
+      "prompt": "\n{bc}┌──({bm}{user}★neon{bc})─[{reset}{cwd}{bc}]{reset}{git_box} {perf}\n{bc}└─{by}${reset} "
+    }
+  ]
+}

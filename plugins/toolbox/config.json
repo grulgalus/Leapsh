@@ -1,0 +1,12 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Užitečné příkazy: cmds (tabulka příkazů), py, ai (cht.sh), gfetch",
+  "permissions": [
+    "read_network",
+    "read_battery",
+    "read_language",
+    "read_theme"
+  ]
+}

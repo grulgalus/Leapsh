@@ -1,0 +1,10 @@
+{
+  "name": "cmd_timer_notify",
+  "version": "1.0.0",
+  "type": "addon",
+  "extends": "cmd_timer",
+  "description": "Pošle notifikaci (Termux/notify-send/pípnutí), když příkaz trval dlouho",
+  "settings": {
+    "threshold": 30
+  }
+}

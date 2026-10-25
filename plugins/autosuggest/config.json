@@ -1,0 +1,6 @@
+{
+  "name": "autosuggest",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Šedý návrh z historie při psaní; → nebo End ho přijme"
+}

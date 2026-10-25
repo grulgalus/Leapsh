@@ -1,0 +1,9 @@
+{
+  "name": "cmd_timer",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Po pomalém příkazu vypíše, jak dlouho trval; segment {last_time}",
+  "settings": {
+    "threshold": 3
+  }
+}

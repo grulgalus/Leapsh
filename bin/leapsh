@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+# Spouštěč leapsh – funguje na Linuxu i v Termuxu.
+SELF="$0"
+if command -v readlink >/dev/null 2>&1; then SELF="$(readlink -f "$0" 2>/dev/null || echo "$0")"; fi
+DIR="$(cd "$(dirname "$SELF")/.." && pwd)"
+PY="${LEAPSH_PYTHON:-python3}"
+command -v "$PY" >/dev/null 2>&1 || PY=python
+PYTHONPATH="$DIR${PYTHONPATH:+:$PYTHONPATH}" exec "$PY" -m leapsh "$@"

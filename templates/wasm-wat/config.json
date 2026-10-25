@@ -1,0 +1,12 @@
+{
+  "name": "__NAME__",
+  "version": "0.1.0",
+  "type": "plugin",
+  "runtime": "wasm",
+  "wasm": "plugin.wasm",
+  "description": "WASM plugin __NAME__ (psaný ve WAT)",
+  "commands": {"__NAME__": "ukázkový příkaz z WASM"},
+  "events": ["command_after"],
+  "segments": ["__NAME__"],
+  "limits": {"fuel": 2000000, "memory_pages": 16}
+}

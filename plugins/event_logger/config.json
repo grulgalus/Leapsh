@@ -1,0 +1,22 @@
+{
+  "name": "event_logger",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Ladění: zapisuje všechny události do souboru (evlog on|off|show)",
+  "settings": {
+    "enabled": false,
+    "skip": [
+      "input_render",
+      "prompt_before",
+      "prompt_render"
+    ]
+  },
+  "completions": {
+    "evlog": [
+      "on",
+      "off",
+      "show",
+      "path"
+    ]
+  }
+}

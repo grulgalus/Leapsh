@@ -1,0 +1,5 @@
+{
+  "name": "hello_events",
+  "version": "1.0.0",
+  "description": "Ukázka: reaguje na psaní, klávesy, příkazy a změnu složky"
+}

@@ -1,0 +1,5 @@
+# Přidej do ~/.termux/termux.properties a spusť `termux-reload-settings`.
+# Řádek navíc s klávesami, které se v leapsh hodí (Tab = doplnění, CTRL+G = vlastní zkratka z pluginu keybinds,
+# END/HOME = přijmutí šedého návrhu autosuggest / skok na začátek).
+extra-keys = [['ESC','TAB','CTRL','ALT','UP','DOWN','LEFT','RIGHT'], \
+              ['HOME','END','|','/','-','~','PGUP','PGDN']]

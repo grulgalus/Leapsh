@@ -1,0 +1,19 @@
+{
+  "name": "theme_neon",
+  "version": "1.0.0",
+  "type": "theme",
+  "description": "Dvouřádkový neon s pravým promptem (potřebuje truecolor)",
+  "theme": {
+    "name": "neon",
+    "colors": {
+      "c1": "#ff2bd6",
+      "c2": "bold #00e5ff",
+      "c3": "#b8ff00",
+      "ok": "#39ff14",
+      "err": "#ff3131",
+      "gray": "#777777"
+    },
+    "prompt": "{c1}╭─{reset} {c2}{cwd}{reset}{git}\n{c1}╰─{reset}{status_color}❯{reset} ",
+    "rprompt": "{pet} {gray}{last_time}{reset} {c3}{time}{reset}"
+  }
+}

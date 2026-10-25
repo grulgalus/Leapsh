@@ -1,0 +1,7 @@
+{
+  "name": "jump",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Příkaz z: skáče do nejčastěji a naposledy navštívených složek (z proj, z -l)",
+  "settings": {"max_entries": 500}
+}

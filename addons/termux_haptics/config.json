@@ -1,0 +1,13 @@
+{
+  "name": "termux_haptics",
+  "version": "1.0.0",
+  "type": "addon",
+  "extends": "termux_extras",
+  "platforms": [
+    "termux"
+  ],
+  "description": "Telefon krátce zavibruje, když příkaz skončí chybou",
+  "settings": {
+    "duration_ms": 80
+  }
+}

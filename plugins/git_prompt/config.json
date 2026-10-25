@@ -1,0 +1,11 @@
+{
+  "name": "git_prompt",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Segmenty {git} a {git_box} (větev, změny); extension pointy pro addony",
+  "settings": {
+    "dirty": true,
+    "color": "yellow",
+    "dirty_color": "red"
+  }
+}

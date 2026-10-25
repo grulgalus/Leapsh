@@ -1,0 +1,7 @@
+{
+  "name": "pet_hat",
+  "version": "1.0.0",
+  "type": "addon",
+  "extends": "pet",
+  "description": "Mazlíček dostává doplňky podle levelu (♪ od 3, ♛ od 5, ✦ od 10)"
+}

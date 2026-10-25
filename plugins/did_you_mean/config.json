@@ -1,0 +1,6 @@
+{
+  "name": "did_you_mean",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Při neexistujícím příkazu navrhne podobný"
+}

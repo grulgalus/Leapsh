@@ -1,0 +1,10 @@
+{
+  "name": "autocorrect",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Automaticky opraví časté překlepy v příkazu (sl → ls, gti → git, …)",
+  "settings": {
+    "fixes": {},
+    "announce": true
+  }
+}

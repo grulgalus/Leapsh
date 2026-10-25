@@ -1,0 +1,7 @@
+{
+  "name": "neon_clock",
+  "version": "1.0.0",
+  "type": "addon",
+  "extends": "theme_neon",
+  "description": "Téma neon: hodiny se sekundami a datem v pravém promptu"
+}

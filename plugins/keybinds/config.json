@@ -1,0 +1,12 @@
+{
+  "name": "keybinds",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Vlastní klávesové zkratky: bind ctrl-g git status -sb",
+  "settings": {
+    "bindings": {
+      "ctrl-g": "git status -sb",
+      "alt-l": "ls -la"
+    }
+  }
+}

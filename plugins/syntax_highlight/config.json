@@ -1,0 +1,9 @@
+{
+  "name": "syntax_highlight",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Barevné zvýrazňování řádku při psaní (příkaz zelený, neexistující červený, řetězce, přepínače…)",
+  "settings": {
+    "colors": {}
+  }
+}

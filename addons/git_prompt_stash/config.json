@@ -1,0 +1,7 @@
+{
+  "name": "git_prompt_stash",
+  "version": "1.0.0",
+  "type": "addon",
+  "extends": "git_prompt",
+  "description": "Přidá do {git} počet stashů (≡N)"
+}

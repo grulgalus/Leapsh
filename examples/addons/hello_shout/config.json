@@ -1,0 +1,7 @@
+{
+  "name": "hello_shout",
+  "version": "1.0.0",
+  "extends": "hello_events",
+  "description": "Ukázka addonu: pozdrav VELKÝMI",
+  "type": "addon"
+}

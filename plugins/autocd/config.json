@@ -1,0 +1,6 @@
+{
+  "name": "autocd",
+  "version": "1.0.0",
+  "type": "plugin",
+  "description": "Napsat jen název složky = přejít do ní (autocd); `..`, `~/Documents`, `src/`"
+}
